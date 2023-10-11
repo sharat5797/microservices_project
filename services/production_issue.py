@@ -3,8 +3,8 @@ from services.measures import Measures
 
 class ProductionIssue(Measures):
    
-    def getMeasureResponse(self):
+    def getMeasureResponse():
         return "this is production issue"
 
-    def getSource(self):
+    def getSource():
         pass
